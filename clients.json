@@ -1,9 +1,9 @@
 [
   {
-    "name": "",
-    "email": "",
-    "phone": "",
-    "address": "",
-    "id": ""
+    "name": "John Doe",
+    "email": "youremail@example.com",
+    "phone": "+123 456 7890",
+    "address": "123 Business St, City, Country",
+    "id": "CLT-000000"
   }
 ]

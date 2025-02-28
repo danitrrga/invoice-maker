@@ -9,14 +9,14 @@ A professional invoice generation system with GUI client management and SQL data
 
 - 🖥️ Graphical User Interface (GUI) with Tkinter
 - 📄 PDF invoice generation from Word templates
-- 📦 **SQL database management** for clients and invoices
+- 📦 SQL database management for clients and invoices
 - 🔢 Automatic calculations (taxes, totals)
 - 🆔 Smart invoice ID generation
 - 📁 Automatic filename suggestions
 - 📱 Responsive UI with modern design
 - 🔄 Real-time service calculations
 - 📤 Multi-format export capabilities
-- ⚙️ **Settings tab** for business configuration
+- ⚙️ Settings tab for business configuration
 - 🔒 Data persistence with relational database
 
 ## Installation
@@ -108,6 +108,6 @@ Payment Details:
   `business_name, business_email, business_phone, business_address, tax_rate, color_scheme`
 
 ## Support
-For issues or feature requests, open an issue on the [GitHub repository](https://github.com/yourusername/invoice-generator).
-
-<p align="center" style="text-color: #B2B2B2;">Thanks for using my work 🤗</p>
+- For issues or feature requests, open an issue on the [GitHub repository](https://github.com/danitrrga/invoice-maker).
+<br><br>
+<p align="center">Thanks for using my work 🤗</p>

@@ -1,0 +1,19 @@
+{
+  "template_path": "invoice_template.docx",
+  "clients_db": "clients.json",
+  "invoices_db": "invoices.db",
+  "business_info": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1 555 123 4567",
+    "address": "123 Main Street, Springfield, USA"
+  },
+  "color_scheme": {
+    "background": "#F8F9FA",
+    "surface": "#FFFFFF",
+    "primary": "#2B2D42",
+    "secondary": "#B2B2B2",
+    "text": "#2B2D42",
+    "highlight": "#EF233C"
+  }
+}

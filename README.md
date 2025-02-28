@@ -22,21 +22,25 @@ A professional invoice generation system with GUI client management and SQL data
 ## Installation
 
 ### Prerequisites
+
 - Python 3.6+
 - SQLite (included with Python)
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/invoice-generator.git
    cd invoice-generator
    ```
 
 2. **Install required libraries**
+
    ```bash
    pip install python-docx docx2pdf
    ```
 
 3. **Database Setup**
+
    - The application automatically creates an SQLite database (`invoices.db`) on first launch
    - Schema includes tables for:
      - Clients
@@ -54,17 +58,20 @@ A professional invoice generation system with GUI client management and SQL data
 ## Usage
 
 1. **Run the application**
+
    ```bash
    python invoice_generator.py
    ```
 
 2. **Settings Tab**
+
    - Configure business details (name, address, email)
    - Customize UI color scheme
    - Set default tax rates and payment methods
    - Accessed via the gear icon (⚙️) in the toolbar
 
 3. **Manage clients**
+
    - Add/edit clients using intuitive forms
    - Client data stored in SQL database
    - Search and filter clients directly in the UI
@@ -98,6 +105,7 @@ Payment Details:
 ```
 
 ## Database Structure
+
 - **Clients Table**  
   `id, name, email, phone, address, created_at`
 - **Invoices Table**  
@@ -108,6 +116,7 @@ Payment Details:
   `business_name, business_email, business_phone, business_address, tax_rate, color_scheme`
 
 ## Support
+
 - For issues or feature requests, open an issue on the [GitHub repository](https://github.com/danitrrga/invoice-maker).
 <br><br>
 <p align="center">Thanks for using my work 🤗</p>

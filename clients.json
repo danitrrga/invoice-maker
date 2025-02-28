@@ -1,9 +1,9 @@
 [
   {
     "name": "John Doe",
-    "email": "youremail@example.com",
-    "phone": "+123 456 7890",
-    "address": "123 Business St, City, Country",
-    "id": "CLT-000000"
+    "email": "john.doe@example.com",
+    "phone": "+1 555 123 4567",
+    "address": "123 Main Street, Springfield",
+    "id": "CLT-123456"
   }
 ]

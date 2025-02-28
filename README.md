@@ -119,4 +119,4 @@ Payment Details:
 
 - For issues or feature requests, open an issue on the [GitHub repository](https://github.com/danitrrga/invoice-maker).
 <br><br>
-<p align="center">Thanks for using my work 🤗</p>
+<p align="center">Thanks for using my code 🤗</p>

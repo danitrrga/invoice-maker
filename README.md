@@ -45,27 +45,9 @@ A professional invoice generation system with GUI client management and Google S
         ]
         ```
 4. Configuration Variables
-      - Update these in the code's configuration section:
-        ```python
-        # Essential configurations
-        TEMPLATE_PATH = "invoice_template.docx"  # Word template path
-        CLIENTS_DB = "clients.json"             # Client database file
-        GS_CREDENTIALS = "credentials.json"     # Google API credentials
-        # Business Information (modify with your details)
-        BUSINESS_INFO = {
-            "name": "Your Business Name",
-            "email": "business@example.com",
-            "phone": "+123 456 7890",
-            "address": "123 Business St, City, Country"
-        }
-        # Color scheme (optional customization)
-        COLOR_SCHEME = {
-            "background": "#F0F0F0",
-            "primary": "#2C3E50",
-            "secondary": "#3498DB",
-            "text": "#FFFFFF"
-        }
-  
+      - Update your preferences in the ⚙️ window
+      - Set the location of your template and modify your business info
+          
 ## Usage
   1. Run the application
       ```bash

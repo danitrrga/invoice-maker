@@ -1,0 +1,19 @@
+{
+  "template_path": "invoice_template.docx",
+  "clients_db": "clients.json",
+  "invoices_db": "invoices.db",
+  "business_info": {
+    "name": "Your Business Name",
+    "email": "business@example.com",
+    "phone": "+123 456 7890",
+    "address": "123 Business St, City, Country"
+  },
+  "color_scheme": {
+    "background": "#ff0006",
+    "surface": "#FFFFFF",
+    "primary": "#2B2D42",
+    "secondary": "#8D99AE",
+    "text": "#2B2D42",
+    "highlight": "#EF233C"
+  }
+}

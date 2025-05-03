@@ -1,0 +1,20 @@
+{
+  "template_path": "invoice_template.docx",
+  "clients_db": "clients.json",
+  "invoices_db": "invoices.db",
+  "business_info": {
+    "name": "Daniel T\u00e1rraga L\u00f3pez",
+    "email": "daniel.tarlop@gmail.com",
+    "phone": "+34 623 265 568",
+    "address": "San Pedro del Pinatar, Murcia, Spain"
+  },
+  "color_scheme": {
+    "background": "#F7F9FC",
+    "surface": "#FFFFFF",
+    "primary": "#6C63FF",
+    "secondary": "#A0AEC0",
+    "text": "#2D3748",
+    "highlight": "#FF5757",
+    "accent": "#4FD1C5"
+  }
+}

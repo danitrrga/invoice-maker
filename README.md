@@ -20,7 +20,7 @@ A professional invoice generation system with GUI client management and Google S
 ## Installation
 
 ### Prerequisites
-- Python 3.3+
+- Python 3.6+
 
 1. **Clone the repository**
    ```bash
@@ -30,7 +30,7 @@ A professional invoice generation system with GUI client management and Google S
     ```python
     pip install python-docx docx2pdf gspread oauth2client ctkinter tkinter-ttk
     ```    
-  3. JSON Data Storage
+3. JSON Data Storage
      - Client Database (clients.json)
      - Automatically created and maintained by the application:
         ```json    
@@ -44,7 +44,7 @@ A professional invoice generation system with GUI client management and Google S
           }
         ]
         ```
-  4. Configuration Variables
+4. Configuration Variables
       - Update your preferences in the ⚙️ window
       - Change the path to your template file (invoice_template.docx)
       - Put the details of your business

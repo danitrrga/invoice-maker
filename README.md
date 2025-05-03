@@ -24,8 +24,8 @@ A professional invoice generation system with GUI client management and Google S
   
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/invoice-generator.git
-   cd invoice-generator
+   git clone https://github.com/yourusername/invoice-maker.git
+   cd invoice-maker
 2. Install required libraries
     ```python
     pip install python-docx docx2pdf gspread oauth2client ctkinter tkinter-ttk

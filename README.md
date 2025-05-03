@@ -1,7 +1,7 @@
 # Automated Invoice Generator
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 A professional invoice generation system with GUI client management and Google Sheets integration.
 
@@ -10,13 +10,12 @@ A professional invoice generation system with GUI client management and Google S
 - 🖥️ Graphical User Interface (GUI) with Tkinter
 - 📄 PDF invoice generation from Word templates
 - 📦 Client database management (JSON storage)
-- ☁️ Google Sheets integration for accounting
+- 🪄 Local database to store all invoices (SQLite3) 
 - 🔢 Automatic calculations (taxes, totals)
 - 🆔 Smart invoice ID generation
 - 📁 Automatic filename suggestions
 - 📱 Responsive UI with modern design
 - 🔄 Real-time service calculations
-- 📤 Multi-format export capabilities
 
 ## Installation
 
@@ -30,40 +29,12 @@ A professional invoice generation system with GUI client management and Google S
    cd invoice-generator
 2. Install required libraries
     ```python
-    pip install python-docx docx2pdf gspread oauth2client
-3. Google Sheets Integration Setup
-
-   1. Enable Google Sheets API
-        - Go to Google Cloud Console
-        - Create a new project or select an existing one
-        - Enable "Google Sheets API" from the library
-     
-   3. Create Service Account credentials:
-        - Navigate to "APIs & Services" > "Credentials"
-        - Click "Create Credentials" > "Service Account"
-        - Fill in details and create JSON key file
-
-   3. Configure Google Sheet
-        - Create a new Google Sheet named "Invoices"
-        - Share the sheet with your service account email (found in JSON credentials)
-        - Add these headers in the first row:
-          ```csv
-          Invoice ID, Date, Client Name, Client Email, Total Amount, Tax %, Tax Amount, Payment Method, Timestamp
-          
-   4. Application Configuration
-       - Place credentials JSON file in project root
-       - Rename it to credentials.json
-       - Update configuration in code if needed:
-          ```python
-          # In configuration section
-          GS_SHEET_NAME = "Invoices"  # Change to your sheet name
-          GS_CREDENTIALS = "credentials.json"  # Keep this filename
-    
+    pip install python-docx docx2pdf gspread oauth2client ctkinter tkinter-ttk
+    ```    
   3. JSON Data Storage
      - Client Database (clients.json)
      - Automatically created and maintained by the application:
-        ```json
-        
+        ```json    
         [
           {
             "id": "CLT-231015-A3B",
@@ -73,6 +44,7 @@ A professional invoice generation system with GUI client management and Google S
             "address": "123 Client St, City, Country"
           }
         ]
+        ```
   4. Configuration Variables
       - Update these in the code's configuration section:
         ```python
@@ -98,7 +70,7 @@ A professional invoice generation system with GUI client management and Google S
 ## Usage
   1. Run the application
       ```bash
-      python invoice_generator.py
+      python main.py
   3. Manage clients
      - Add new clients with "New" button
      - Edit existing clients with "Edit" button
@@ -129,3 +101,4 @@ Create invoice_template.docx with these exact placeholders:
   
   Payment Details:
   [payment_method] [payment_entity] [payment_name] [payment_number]
+  ```

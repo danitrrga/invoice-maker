@@ -9,12 +9,23 @@
     "address": "San Pedro del Pinatar, Murcia, Spain"
   },
   "color_scheme": {
-    "background": "#F7F9FC",
-    "surface": "#FFFFFF",
-    "primary": "#6C63FF",
-    "secondary": "#A0AEC0",
-    "text": "#2D3748",
-    "highlight": "#FF5757",
-    "accent": "#4FD1C5"
-  }
+    "light": {
+      "background": "#F8F9FA",
+      "surface": "#FFFFFF",
+      "primary": "#2B2D42",
+      "secondary": "#8D99AE",
+      "text": "#2B2D42",
+      "highlight": "#EF233C"
+    },
+    "dark": {
+      "background": "#1A1B1E",
+      "surface": "#2B2D31",
+      "primary": "#5C7AEA",
+      "secondary": "#64748B",
+      "text": "#E5E7EB",
+      "highlight": "#F43F5E",
+      "primary_dark": "#4055a3"
+    }
+  },
+  "theme_mode": "dark"
 }

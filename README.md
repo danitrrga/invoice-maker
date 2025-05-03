@@ -21,8 +21,7 @@ A professional invoice generation system with GUI client management and Google S
 
 ### Prerequisites
 - Python 3.6+
-- Google account for Sheets integration
-
+  
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/invoice-generator.git
@@ -31,7 +30,7 @@ A professional invoice generation system with GUI client management and Google S
     ```python
     pip install python-docx docx2pdf gspread oauth2client ctkinter tkinter-ttk
     ```    
-  3. JSON Data Storage
+3. JSON Data Storage
      - Client Database (clients.json)
      - Automatically created and maintained by the application:
         ```json    
@@ -45,7 +44,7 @@ A professional invoice generation system with GUI client management and Google S
           }
         ]
         ```
-  4. Configuration Variables
+4. Configuration Variables
       - Update these in the code's configuration section:
         ```python
         # Essential configurations

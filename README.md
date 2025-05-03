@@ -20,13 +20,12 @@ A professional invoice generation system with GUI client management and Google S
 ## Installation
 
 ### Prerequisites
-- Python 3.6+
-- Google account for Sheets integration
+- Python 3.3+
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/invoice-generator.git
-   cd invoice-generator
+   git clone https://github.com/yourusername/invoice-maker.git
+   cd invoice-maker
 2. Install required libraries
     ```python
     pip install python-docx docx2pdf gspread oauth2client ctkinter tkinter-ttk
@@ -46,31 +45,15 @@ A professional invoice generation system with GUI client management and Google S
         ]
         ```
   4. Configuration Variables
-      - Update these in the code's configuration section:
-        ```python
-        # Essential configurations
-        TEMPLATE_PATH = "invoice_template.docx"  # Word template path
-        CLIENTS_DB = "clients.json"             # Client database file
-        GS_CREDENTIALS = "credentials.json"     # Google API credentials
-        # Business Information (modify with your details)
-        BUSINESS_INFO = {
-            "name": "Your Business Name",
-            "email": "business@example.com",
-            "phone": "+123 456 7890",
-            "address": "123 Business St, City, Country"
-        }
-        # Color scheme (optional customization)
-        COLOR_SCHEME = {
-            "background": "#F0F0F0",
-            "primary": "#2C3E50",
-            "secondary": "#3498DB",
-            "text": "#FFFFFF"
-        }
-  
+      - Update your preferences in the ⚙️ window
+      - Change the path to your template file (invoice_template.docx)
+      - Put the details of your business
+      - Save changes with "Save" button
 ## Usage
   1. Run the application
       ```bash
       python main.py
+      ```
   3. Manage clients
      - Add new clients with "New" button
      - Edit existing clients with "Edit" button
@@ -102,3 +85,4 @@ Create invoice_template.docx with these exact placeholders:
   Payment Details:
   [payment_method] [payment_entity] [payment_name] [payment_number]
   ```
+<div align="center">Thanks for using my code!🤗</div>

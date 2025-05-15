@@ -9,7 +9,7 @@ DEFAULT_CONFIG = {
         "name": "Your Business Name",
         "email": "business@example.com",
         "phone": "+123 456 7890",
-        "address": "123 Business St, City, Country"
+        "address": "123 Business St, City, Country",
     },
     "color_scheme": {
         "light": {
@@ -19,7 +19,7 @@ DEFAULT_CONFIG = {
             "primary_dark": "#1E1F2E",
             "secondary": "#8D99AE",
             "text": "#2B2D42",
-            "highlight": "#EF233C"
+            "highlight": "#EF233C",
         },
         "dark": {
             "background": "#121212",
@@ -28,12 +28,13 @@ DEFAULT_CONFIG = {
             "primary_dark": "#8359B0",
             "secondary": "#03DAC6",
             "text": "#FFFFFF",
-            "highlight": "#CF6679"
-        }
-    }
+            "highlight": "#CF6679",
+        },
+    },
 }
 
 CONFIG_FILE = "app_config.json"
+
 
 class ConfigHandler:
     @staticmethod
@@ -50,6 +51,7 @@ class ConfigHandler:
     def save_config(config):
         with open(CONFIG_FILE, "w") as f:
             json.dump(config, f, indent=2)
+
 
 # Load configuration and ensure theme_mode is set
 app_config = ConfigHandler.load_config()
